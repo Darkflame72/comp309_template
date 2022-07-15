@@ -17,4 +17,4 @@ poetry install
 poetry shell
 ```
 
-You can then at by pressing `ctrl shift p`/`cmd shit p` and then typing `Python: Select Interpreter` use the virtual environment created by poetry which is listed when running `poetry shell` this means that all your dependencies are in the same place and won't conflict with anything else.
+When you have the jupyter notebook open in the top right you can select the interpreter which should be the virtual env created by poetry.
